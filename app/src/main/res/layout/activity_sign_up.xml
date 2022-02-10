@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="131dp"
+                android:layout_height="113dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/loginicon"
+                app:civ_border_color="#CD8C3A"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:id="@+id/User_Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Upload Image"
+                android:textColor="#1B1919"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="110dp"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/UserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cdit_item_background"
+                android:gravity="center"
+                android:hint="Nitin Kumar"
+                android:padding="10sp" />
+
+            <EditText
+                android:id="@+id/Phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cdit_item_background"
+                android:gravity="center"
+                android:hint="+91 123 456 7890"
+                android:inputType="numberSigned"
+                android:padding="10sp" />
+
+            <EditText
+                android:id="@+id/Email_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cdit_item_background"
+                android:gravity="center"
+                android:hint="abc@xyz.com"
+                android:padding="10sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cdit_item_background"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:padding="10sp"
+                android:text="User Name" />
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_gradient"
+                android:text="Register"
+                android:textStyle="bold"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <view
+                    android:id="@+id/view3"
+                    class="androidx.viewpager2.widget.ViewPager2"
+                    android:layout_width="60dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Or With"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <view
+                    android:id="@+id/view4"
+                    class="androidx.viewpager2.widget.ViewPager2"
+                    android:layout_width="60dp"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/facebook_bg"
+                    android:drawableLeft="@drawable/facebooknew2"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:text="Facebook"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/google_bg"
+                    android:drawableLeft="@drawable/googleplus"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:text="Google"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gotoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Already Have An Account? Login"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/ProgBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

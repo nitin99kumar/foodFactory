@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/menu_call"
+            android:title="Call" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Settings"
+            >
+            <menu>
+                <item
+                    android:id="@+id/profile"
+                    android:title="Profile"
+                    />
+                <item
+                    android:orderInCategory="@integer/material_motion_duration_long_2"
+                    android:id="@+id/logOut"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

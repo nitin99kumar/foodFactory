@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461633308359",
+    "project_id": "foodfactory-2c446",
+    "storage_bucket": "foodfactory-2c446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461633308359:android:459935aef9d953b489a0e2",
+        "android_client_info": {
+          "package_name": "com.example.foodfactory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461633308359-pmkvo34d28sar3gj4ef198i2447ns8o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMwsTtYL70rlR1FYIouCs1y0_EjN0mwNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461633308359-pmkvo34d28sar3gj4ef198i2447ns8o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
